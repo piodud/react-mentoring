@@ -1,0 +1,16 @@
+npm init
+npm install react react-dom //potrzebne na produkcji: dependencies
+npm install --save-dev webpack webpack-dev-server webpack-cli // do developmentu: devDependencies
+npm install --save-dev babel-core //transpilowanie es6 na js
+                       babel-loader
+                       babel-preset-env // jsx na js 
+                       babel-preset-react
+                       babel-webpack-plugin
+
+npm install --save react-router
+npm install react-router-dom
+
+
+touch webpack.config.js // plik konfiguracyjny webpacka
+mkdir src
+touch src/index.js
